@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    k8s_dogstatsd_rack_exporter (0.0.1)
+      dogstatsd-ruby
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dogstatsd-ruby (3.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  k8s_dogstatsd_rack_exporter!
+
+BUNDLED WITH
+   1.15.4
