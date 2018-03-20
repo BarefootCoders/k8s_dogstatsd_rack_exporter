@@ -26,6 +26,7 @@ module Rack
         "job:#{container_name}",
         "pod:#{pod_name}",
         "namespace:#{namespace}",
+        "deployment:#{container_name}",
       ]
 
       statsd_client.batch do |batch|
