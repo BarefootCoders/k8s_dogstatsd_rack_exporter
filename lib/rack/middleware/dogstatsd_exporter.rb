@@ -23,7 +23,7 @@ module Rack
       metric_tags = [
         "code:#{status}",
         "instance:#{pod_ip}",
-        "job:#{container_name}",
+        "service:#{container_name}",
         "pod:#{pod_name}",
         "namespace:#{namespace}",
         "deployment:#{container_name}",
