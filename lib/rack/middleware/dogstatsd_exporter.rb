@@ -70,7 +70,7 @@ module Rack
     end
 
     def pod_name
-      ENV.fetch("K8S_POD_NAME", nil)
+      ENV.fetch("HOSTNAME", nil)
     end
   end
 end
